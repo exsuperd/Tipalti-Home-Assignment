@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment>
+    <!-- Web -->
+    <baseURL>https://qa-tipalti-assignment.tipalti-pg.com/index.html</baseURL>
+    <defaultNavigationTimeout>30000</defaultNavigationTimeout>
+    <defaultTimeout>20000</defaultTimeout>
+</environment>

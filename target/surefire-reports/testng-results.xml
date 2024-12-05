@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T01:57:33 IST" name="Suite" finished-at="2024-12-05T01:58:29 IST" duration-ms="55883">
+    <groups>
+    </groups>
+    <test started-at="2024-12-05T01:57:33 IST" name="TipaltiDemo" finished-at="2024-12-05T01:58:29 IST" duration-ms="55883">
+      <class name="APIAutomationDemo">
+        <test-method signature="test01_VerifyMatchingCountryToSelectedCity()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:23 IST" name="test01_VerifyMatchingCountryToSelectedCity" finished-at="2024-12-05T01:58:25 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_VerifyMatchingCountryToSelectedCity -->
+        <test-method signature="test02_VerifySeveralValues()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:25 IST" name="test02_VerifySeveralValues" finished-at="2024-12-05T01:58:26 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_VerifySeveralValues -->
+        <test-method signature="test03_verifyTotalNumORecords()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:26 IST" name="test03_verifyTotalNumORecords" finished-at="2024-12-05T01:58:26 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_verifyTotalNumORecords -->
+        <test-method signature="test04_verifyIDAccordingToTextSearch()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:26 IST" name="test04_verifyIDAccordingToTextSearch" finished-at="2024-12-05T01:58:27 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_verifyIDAccordingToTextSearch -->
+        <test-method signature="test05_verifySpecificTextIsNotIncludedInAnyRecordBody()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:27 IST" name="test05_verifySpecificTextIsNotIncludedInAnyRecordBody" finished-at="2024-12-05T01:58:27 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_verifySpecificTextIsNotIncludedInAnyRecordBody -->
+        <test-method signature="test06_updatingAnExistingRecord()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:27 IST" name="test06_updatingAnExistingRecord" finished-at="2024-12-05T01:58:28 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_updatingAnExistingRecord -->
+        <test-method signature="test07_addingNewRecord()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:28 IST" name="test07_addingNewRecord" finished-at="2024-12-05T01:58:28 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07_addingNewRecord -->
+        <test-method signature="test08_deletingAnExistingRecord()[pri:0, instance:APIAutomationDemo@351d00c0]" started-at="2024-12-05T01:58:28 IST" name="test08_deletingAnExistingRecord" finished-at="2024-12-05T01:58:29 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08_deletingAnExistingRecord -->
+      </class> <!-- APIAutomationDemo -->
+      <class name="HomePageTests">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:HomePageTests@74f0ea28]" started-at="2024-12-05T01:57:33 IST" name="classSetup" finished-at="2024-12-05T01:57:48 IST" duration-ms="14664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="test_01_verifyHomePageTopTabs()[pri:0, instance:HomePageTests@74f0ea28]" started-at="2024-12-05T01:57:48 IST" name="test_01_verifyHomePageTopTabs" finished-at="2024-12-05T01:57:51 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verifyHomePageTopTabs -->
+        <test-method signature="test_02_verifyLoginButtonBackgroundColor()[pri:0, instance:HomePageTests@74f0ea28]" started-at="2024-12-05T01:57:51 IST" name="test_02_verifyLoginButtonBackgroundColor" finished-at="2024-12-05T01:57:51 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verifyLoginButtonBackgroundColor -->
+        <test-method signature="test_03_verifyNumberOfCustomersDisplayedInSlideAnimationAndPrintTheirValues()[pri:0, instance:HomePageTests@74f0ea28]" started-at="2024-12-05T01:57:51 IST" name="test_03_verifyNumberOfCustomersDisplayedInSlideAnimationAndPrintTheirValues" finished-at="2024-12-05T01:57:51 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verifyNumberOfCustomersDisplayedInSlideAnimationAndPrintTheirValues -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:HomePageTests@74f0ea28]" started-at="2024-12-05T01:57:51 IST" name="teardown" finished-at="2024-12-05T01:57:51 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- HomePageTests -->
+      <class name="RequestDemoTests">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:RequestDemoTests@49e53c76]" started-at="2024-12-05T01:57:51 IST" name="classSetup" finished-at="2024-12-05T01:57:57 IST" duration-ms="5572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="test_01_verifyAllGetStartedWindowElementsAreDisplayed()[pri:0, instance:RequestDemoTests@49e53c76]" started-at="2024-12-05T01:57:57 IST" name="test_01_verifyAllGetStartedWindowElementsAreDisplayed" finished-at="2024-12-05T01:57:57 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verifyAllGetStartedWindowElementsAreDisplayed -->
+        <test-method signature="test_02_verifyAvailableCompanySizeOptions()[pri:0, instance:RequestDemoTests@49e53c76]" started-at="2024-12-05T01:57:57 IST" name="test_02_verifyAvailableCompanySizeOptions" finished-at="2024-12-05T01:57:58 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verifyAvailableCompanySizeOptions -->
+        <test-method signature="test_03_completeWithoutApproveConsent()[pri:0, instance:RequestDemoTests@49e53c76]" started-at="2024-12-05T01:57:58 IST" name="test_03_completeWithoutApproveConsent" finished-at="2024-12-05T01:58:22 IST" duration-ms="24466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_completeWithoutApproveConsent -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RequestDemoTests@49e53c76]" started-at="2024-12-05T01:58:22 IST" name="teardown" finished-at="2024-12-05T01:58:23 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- RequestDemoTests -->
+    </test> <!-- TipaltiDemo -->
+  </suite> <!-- Suite -->
+</testng-results>

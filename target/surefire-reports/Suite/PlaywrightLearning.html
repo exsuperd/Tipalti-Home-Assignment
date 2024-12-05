@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  PlaywrightLearning</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PlaywrightLearning</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 05 00:23:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>120 seconds (120873 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APIAutomationDemo.test03_verifyTotalNumORecords()'><b>test03_verifyTotalNumORecords</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='RequestDemoTests.test_03_completeWithoutApproveConsent()'><b>test_03_completeWithoutApproveConsent</b><br>Test class: RequestDemoTests</td>
+<td></td>
+<td>27</td>
+<td>RequestDemoTests@49e53c76</td></tr>
+<tr>
+<td title='RequestDemoTests.test_01_verifyAllGetStartedWindowElementsAreDisplayed()'><b>test_01_verifyAllGetStartedWindowElementsAreDisplayed</b><br>Test class: RequestDemoTests</td>
+<td></td>
+<td>0</td>
+<td>RequestDemoTests@49e53c76</td></tr>
+<tr>
+<td title='APIAutomationDemo.test07_addingNewRecord()'><b>test07_addingNewRecord</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='APIAutomationDemo.test05_verifySpecificTextIsNotIncludedInAnyRecordBody()'><b>test05_verifySpecificTextIsNotIncludedInAnyRecordBody</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='RequestDemoTests.test_02_verifyAvailableCompanySizeOptions()'><b>test_02_verifyAvailableCompanySizeOptions</b><br>Test class: RequestDemoTests</td>
+<td></td>
+<td>0</td>
+<td>RequestDemoTests@49e53c76</td></tr>
+<tr>
+<td title='APIAutomationDemo.test02_VerifySeveralValues()'><b>test02_VerifySeveralValues</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='APIAutomationDemo.test08_deletingAnExistingRecord()'><b>test08_deletingAnExistingRecord</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>1</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='APIAutomationDemo.test01_VerifyMatchingCountryToSelectedCity()'><b>test01_VerifyMatchingCountryToSelectedCity</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>2</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='APIAutomationDemo.test04_verifyIDAccordingToTextSearch()'><b>test04_verifyIDAccordingToTextSearch</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='HomePageTests.test_02_verifyLoginButtonBackgroundColor()'><b>test_02_verifyLoginButtonBackgroundColor</b><br>Test class: HomePageTests</td>
+<td></td>
+<td>0</td>
+<td>HomePageTests@74f0ea28</td></tr>
+<tr>
+<td title='APIAutomationDemo.test06_updatingAnExistingRecord()'><b>test06_updatingAnExistingRecord</b><br>Test class: APIAutomationDemo</td>
+<td></td>
+<td>0</td>
+<td>APIAutomationDemo@351d00c0</td></tr>
+<tr>
+<td title='HomePageTests.test_01_verifyHomePageTopTabs()'><b>test_01_verifyHomePageTopTabs</b><br>Test class: HomePageTests</td>
+<td></td>
+<td>2</td>
+<td>HomePageTests@74f0ea28</td></tr>
+<tr>
+<td title='HomePageTests.test_03_verifyNumberOfCustomersDisplayedInSlideAnimationAndPrintTheirValues()'><b>test_03_verifyNumberOfCustomersDisplayedInSlideAnimationAndPrintTheirValues</b><br>Test class: HomePageTests</td>
+<td></td>
+<td>0</td>
+<td>HomePageTests@74f0ea28</td></tr>
+</table><p>
+</body>
+</html>

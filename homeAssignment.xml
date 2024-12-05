@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <test name="HomeAssignmentDemo">
+        <classes>
+            <class name="HomePageTests"> </class>
+
+            <!--methods>
+               <include name=""/>
+           </methods-->
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="utilities.Listeners"/>
+    </listeners>
+</suite>
